@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .mainForm {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    width: 980px;
+    margin-left: 140px;
+    align-items: center;
+  }
+
+  .header1 {
+    text-align: center;
+    background-color: rgb(139, 174, 240);
+    border: 1px solid black;
+    height: 80px;
+    border-radius: 20px;
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  p {
+    margin-left: 20px;
+    margin-top: 1px;
+  }
+
+  .mainContainer {
+    display: flex;
+    flex: 3;
+    align-items: center;
+  }
+
+  .pPronouns {
+    margin-left: 20px;
+  }
+
+  input {
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+
+  input:hover {
+    background-color: rgb(218, 225, 238);
+  }
+
+  .workPhn {
+    margin-left: 70px;
+  }
+
+  .cellPhn {
+    margin-left: 80px;
+  }
+
+  .jobTitle {
+    margin-left: 97px;
+  }
+
+  .prefix {
+    margin-left: 116px;
+  }
+
+  #fName {
+    margin-left: 113px;
+    margin-right: 1px;
+    width: 125px;
+  }
+
+  #lName {
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 119px;
+  }
+
+  .radio {
+    margin-right: 1px;
+    height: 15px;
+    width: 20px;
+  }
+
+  .form-column {
+    margin-left: 34px;
+  }
+
+  button {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    font-weight: 300;
+    background-color: rgb(100, 138, 204);
+    color: rgb(255, 254, 254);
+    border: 1.3px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    float: right;
+  }
+
+  button:hover {
+    background-color: rgb(71, 99, 183);
+    cursor: pointer;
+  }
+
+  .right {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  label {
+    font-size: large;
+  }
+
+  .bAddress {
+    margin-left: 1px;
+    width: 410px;
+  }
+
+  .company {
+    margin-left: 90px;
+  }
+
+  .comWebsite {
+    margin-left: 1px;
+    width: 410px;
+  }
+
+  .facebookPage {
+    margin: 1px;
+    width: 340px;
+    margin-top: 10px;
+  }
+
+  .compTwit {
+    margin: 1px;
+    width: 340px;
+    margin-top: 10px;
+  }
+
+  .compLink {
+    margin: 1px;
+    width: 340px;
+    margin-top: 10px;
+  }
+
+  .aGuest {
+    margin-left: 1px;
+    width: 340px;
+  }
+
+  textarea {
+    width: 340px;
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+
+  textarea:hover {
+    background-color: rgb(218, 225, 238);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(47, 46, 46, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+  }
+  .modal {
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+
+  .modal-body {
+    display: flex;
+  }
+
+  .modal-content {
+    background-color: rgb(170, 189, 220);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #faf7f7;
+    width: 80%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .modal-header {
+    background-color: #7a96c7;
+    height: 50px;
+    border: #7a96c7;
+    border-radius: 2px;
+  }
+  .modal-header h2 {
+    text-align: center;
+  }
+  .column {
+    margin-top: 40px;
+    flex: 1;
+  }
+
+  .column p {
+    margin: 5px 0;
+    margin-left: 15px;
+  }
+
+  .myModal button {
+    color: #2b2929;
+    float: right;
+    width: 120px;
+    height: 43px;
+    border: 1px solid black;
+    background-color: #7a96c7;
+    font-size: 18px;
+    z-index: 1001;
+    margin-top: 50px;
+    margin-left: 700px;
+  }
+  .modal-body button:hover {
+    background-color: #2b2929;
+  }
+  h2 {
+    padding: 5px;
+    padding-top: 9px;
+    color: #0c0c0c;
+  }
+  .modal-body h2 {
+    margin-top: 20px;
+  }
